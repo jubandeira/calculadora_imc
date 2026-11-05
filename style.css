@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Sen:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Sen", sans-serif;
+}
+h1 {
+    font-family: "Luckiest Guy", cursive;
+}
+.calculadora {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid #F2E9D8;
+}
+
+.caixa {
+    width: 13rem;
+    border-radius: 5px;
+    border: 1px solid #D97B66;
+    padding: 3px;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -10px;
+    margin-top: 5px;
+}
+
+.caixa:hover {
+    background-color: #f3ebdc;
+}
+
+button {
+    margin: 10px;
+    width: 10rem;
+    height: 1.5rem;
+    border-radius: 20px;
+    border: 1px solid #ec917c;
+    background-color: #ec917c;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover {
+    background-color: #cf6d57;
+}
